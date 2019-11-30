@@ -3,12 +3,12 @@ import "./index.css";
 
 export default function Workspace({ title, children, info }) {
   return (
-    <div className="workspace">
-      <header className="title">{title}</header>
-      <div className="phone-container">
-        <div className="phone">{children}</div>
+    <div className="rps-workspace">
+      <header className="rps-title">{title}</header>
+      <div className="rps-phone-container">
+        <div className="rps-phone">{children}</div>
       </div>
-      <aside className="info">{info}</aside>
+      <aside className="rps-info">{info}</aside>
     </div>
   );
 }

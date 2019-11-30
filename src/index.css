@@ -1,4 +1,4 @@
-.workspace {
+.rps-workspace {
   background-color: lightblue;
   height: 100vh;
   width: 100vw;
@@ -8,7 +8,7 @@
   color: whitesmoke;
 }
 
-.phone {
+.rps-phone {
   width: 18rem;
   height: 36rem;
   border: 0.85rem solid #192333;
@@ -18,52 +18,52 @@
     0 1rem 1.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.title,
-.phone-container {
+.rps-title,
+.rps-phone-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.title {
+.rps-title {
   grid-row: 1;
   grid-column: 2;
 }
 
-.phone-container {
+.rps-phone-container {
   grid-column: 2;
   grid-row: 2;
 }
 
-.info {
+.rps-info {
   grid-column: 3;
   grid-row: 2;
 }
 
 @media (prefers-color-scheme: dark) {
-  .workspace {
+  .rps-workspace {
     background-color: #2c3985;
   }
 
-  .phone {
+  .rps-phone {
     border-color: #0f1821;
   }
 }
 
 @media (max-width: 60rem) {
-  .workspace {
+  .rps-workspace {
     grid-template-columns: 1fr 24rem 1fr;
   }
 }
 
 @media (max-width: 60rem) {
-  .workspace {
+  .rps-workspace {
     grid-template-columns: 1fr 24rem 1fr;
   }
 }
 
 @media (max-width: 50rem) {
-  .info {
+  .rps-info {
     margin-top: 2rem;
     grid-column: 2;
     grid-row: 3;
@@ -71,13 +71,13 @@
 }
 
 @media (max-width: 32rem) {
-  .workspace {
+  .rps-workspace {
     display: block;
     min-height: 100vh;
     height: auto;
   }
 
-  .info {
+  .rps-info {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
