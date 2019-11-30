@@ -1,6 +1,6 @@
 {
   "name": "@darth-knoppix/react-phone-show",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react-phone-show React component",
   "main": "lib/index.js",
   "module": "es/index.js",
