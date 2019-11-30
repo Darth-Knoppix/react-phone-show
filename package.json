@@ -34,7 +34,7 @@
   "author": "Seth Corker <seth.corker@gmail.com>",
   "homepage": "https://blog.sethcorker.com",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/Darth-Knoppix/react-phone-show",
   "keywords": [
     "react-component"
   ]
