@@ -1,15 +1,13 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React from "react";
+import { render } from "react-dom";
+import "./index.css";
 
-import Example from '../../src'
+import Workspace from "../../src";
 
-class Demo extends Component {
-  render() {
-    return <div>
-      <h1>react-phone-show Demo</h1>
-      <Example/>
-    </div>
-  }
+function Demo() {
+  return (
+    <Workspace title={<h1>Title</h1>} info={<p>Look at this</p>}></Workspace>
+  );
 }
 
-render(<Demo/>, document.querySelector('#demo'))
+render(<Demo />, document.querySelector("#demo"));

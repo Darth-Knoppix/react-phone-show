@@ -1,9 +1,14 @@
-import React, {Component} from 'react'
+import React from "react";
+import "./index.css";
 
-export default class extends Component {
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
+export default function Workspace({ title, children, info }) {
+  return (
+    <div className="workspace">
+      <header className="title">{title}</header>
+      <div className="phone-container">
+        <div className="phone">{children}</div>
+      </div>
+      <aside className="info">{info}</aside>
     </div>
-  }
+  );
 }

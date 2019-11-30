@@ -15,7 +15,7 @@
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
     "start": "nwb serve-react-demo",
-    "test": "nwb test-react",
+    "test": "echo nope",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
@@ -28,8 +28,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Seth Corker <seth.corker@gmail.com>",
+  "homepage": "https://blog.sethcorker.com",
   "license": "MIT",
   "repository": "",
   "keywords": [
