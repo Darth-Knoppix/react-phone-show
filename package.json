@@ -1,5 +1,5 @@
 {
-  "name": "react-phone-show",
+  "name": "@darth-knoppix/react-phone-show",
   "version": "1.0.0",
   "description": "react-phone-show React component",
   "main": "lib/index.js",
@@ -27,6 +27,9 @@
     "nwb": "0.23.x",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "Seth Corker <seth.corker@gmail.com>",
   "homepage": "https://blog.sethcorker.com",
