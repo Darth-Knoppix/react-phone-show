@@ -1,10 +1,10 @@
 .rps-workspace {
   background-color: lightblue;
   height: 100vh;
-  width: 100vw;
+  min-width: 100vw;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 2fr 5fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 10rem 1fr;
   color: whitesmoke;
 }
 
@@ -34,6 +34,7 @@
 .rps-phone-container {
   grid-column: 2;
   grid-row: 2;
+  align-self: flex-start;
 }
 
 .rps-info {
@@ -54,6 +55,8 @@
 @media (max-width: 60rem) {
   .rps-workspace {
     grid-template-columns: 1fr 24rem 1fr;
+    grid-template-rows: 10rem 3fr 1fr;
+    min-height: 100vh;
   }
 }
 
@@ -66,6 +69,7 @@
 @media (max-width: 50rem) {
   .rps-info {
     margin-top: 2rem;
+    margin-bottom: 2rem;
     grid-column: 2;
     grid-row: 3;
   }
@@ -76,6 +80,7 @@
     display: block;
     min-height: 100vh;
     height: auto;
+    padding-bottom: 2rem;
   }
 
   .rps-info {
